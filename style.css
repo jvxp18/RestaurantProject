@@ -1,0 +1,117 @@
+html {
+  height: 99%;
+}
+
+body {
+  background-color: rgb(52, 216, 79);
+  background-image: url(images/background-adare-restaurant.jpg);
+  background-size: auto;
+  /* background-size: cover; - will allow you to stretch/minimize without losing background image */
+  /* background-repeat: no-repeat; */
+  /*if image will repeat due to size*/
+  background-position: center;
+  /*center - stay in the center than left and right*/
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  /*setting a container as a class and assigning it to your div, will adjust all of the tags/boxes*/
+}
+
+header {
+  height: 115px;
+  text-align: center;
+  filter: contrast(0%);
+  filter: drop-shadow(3px 3px 3px red);
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.33);
+  /*rgb(a) - red green blue (alpha)*/
+  /* height: 60px; */
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+main {
+  /* height: 600px; */
+  text-align: center;
+  padding-top: 90px;
+  padding-left: 240px;
+  padding-right: 240px;
+  /*margin is OUTSIDE of the box; padding is INSIDE*/
+  /*once you delete the background-color, the padding/margin doesn't even matter*/
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.657);
+  padding-top: 24px;
+  padding-bottom: 21px;
+  left-padding: 30px;
+  right-padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 84px;
+  color: rgb(255, 0, 0);
+  font-family: fantasy, Arial, sans-serif;
+  filter: drop-shadow(3px 3px 3px rgb(0, 0, 0));
+  /*font-family will check for the first font, second, and then third*/
+}
+
+p {
+  font-size: 18px;
+  color: rgb(0, 172, 0);
+  font-family: fantasy, Arial, sans-serif;
+  filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  filter: drop-shadow(3px 3px 3px rgb(0, 0, 0));
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+
+  /*text-decoration to remove the underline or format...*/
+}
+
+/*with target="_blank" it can move your site to the next site*/
+
+/*compound classes - compound b/c two parts*/
+nav a {
+  text-decoration: none;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+p a {
+  text-decoration: none;
+  font-size: 12px;
+  filter: none;
+}
+
+footer p {
+  text-decoration: none;
+  font-size: 12.6px;
+  color: rgb(255, 0, 0);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.maps {
+  padding-top: 45px;
+  padding-bottom: 42px;
+  text-align: center;
+}
+
+section .youtube {
+  padding-top: 6px;
+  text-align: center;
+}
